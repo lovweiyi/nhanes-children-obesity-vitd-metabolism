@@ -24,10 +24,10 @@ You can install them with:
 # Example for a few key packages; refer to each script for a full list
 install.packages(c("nhanesA", "dplyr", "rms", "qgraph", "forestploter", "lavaan", "semPlot"))
 
-How to Run£º
+How to RunÂ£Âº
 1.Set your working directory: Open the project folder in RStudio and set the working directory to this location (Session > Set Working Directory > To Source File Location).
 2.Run the scripts in order: Execute the R scripts sequentially from 01 to 07. Each script depends on the output of the previous one(s).
-3.Important Note: Script 02 will generate the core dataset data_orignal.csv in the working directory, which is used by all subsequent scripts.
+3.Important Note: Script 02 will generate the core dataset data.csv in the working directory, which is used by all subsequent scripts.
 4.Output: The final outputs (tables, figures, and network analysis results) will be saved in the working directory or its subdirectories (e.g., the results folder created by 07_network_graph_analysis.R).
 
 Data Source:
@@ -35,4 +35,5 @@ This study utilizes publicly available data from the NHANES database (https://ww
 
 Author
 Wei Yi
+
 ```
